@@ -74,7 +74,7 @@
         margin-top: 12px;
         text-align: left;
     }
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 700px){
         .contain{
             width:390px ;
             margin-bottom: 32px;

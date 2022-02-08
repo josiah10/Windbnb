@@ -62,7 +62,7 @@ export default {
         color: #828282;
         margin-top: 90px;
     }
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 700px){
         .container{
             margin: 22px 13px;
             overflow-x: hidden;

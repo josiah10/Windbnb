@@ -98,7 +98,7 @@
         align-items: center;
         justify-content: space-evenly;
     }
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 700px){
         .contain{
             width:390px ;
             margin-bottom: 32px;
