@@ -62,7 +62,7 @@
         width: 96px;
         height: 19px;
     }
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 600px){
         .contain{
             display: block;
         }
