@@ -76,12 +76,12 @@
     }
     @media screen and (max-width: 600px){
         .contain{
-            width:390px ;
+            width:100% ;
             margin-bottom: 32px;
         }
         img{
             height: 280px;
-            width: 390px;
+            width: 100%;
         }
         /*.en{*/
         /*    font-size: 12px;*/
