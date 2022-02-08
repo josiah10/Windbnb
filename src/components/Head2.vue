@@ -36,10 +36,5 @@
         margin:0;
         color: #4F4F4F;
     }
-    @media screen and (max-width: 400px){
-        h2{
-            font-size: 18px;
-        }
-    }
 
 </style>
