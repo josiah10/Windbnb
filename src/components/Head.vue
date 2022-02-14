@@ -4,7 +4,7 @@
          <div class="head">
              <div class="hel">Helsinki,Finland</div>
              <div class="add">Add guests</div>
-            <star-icon class="star-icon"/>
+            <fa icon="search" class="star-icon"/>
         </div>
     </div>
 </template>
@@ -51,6 +51,7 @@
     }
     .star-icon{
         padding: 18px 13px 18px 0;
+        color: #EB5757;
     }
     .contain{
         display: flex;

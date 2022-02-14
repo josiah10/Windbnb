@@ -1,5 +1,7 @@
 <template>
+    <Search />
   <div class="container">
+
       <Head class="hea"/>
       <Head2 class="hea2"/>
       <div class="first">
@@ -18,18 +20,22 @@
 </template>
 
 <script>
+
 import Head from "./components/Head";
 import Head2 from "./components/Head2";
 import Division from "./components/Division";
 import Division2 from "./components/Division2";
 
+
+import Search from "./components/Search";
 export default {
   name: 'App',
-  components: {
+    components: {
       Head,
       Head2,
       Division,
-      Division2
+      Division2,
+        Search
   }
 }
 </script>
@@ -38,6 +44,8 @@ export default {
 .container{
     margin: 32px 100px;
     overflow-x: hidden;
+
+
 }
     .hea{
         margin-bottom: 67px;
@@ -62,6 +70,7 @@ export default {
         color: #828282;
         margin-top: 90px;
     }
+
     @media screen and (max-width: 600px){
         .container{
             margin: 22px 13px;
@@ -72,6 +81,7 @@ export default {
             flex-direction: column;
             margin-bottom: 5px;
         }
+
     }
 
 </style>
